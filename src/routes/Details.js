@@ -34,7 +34,10 @@ function Detail() {
                   <li key={g}>{g}</li>
                 ))}
               </ul>
-              <div>{`Like Count : ${detail.like_count}`}</div>
+              <div>
+                <img src="../img/like.png" />
+                {`Like Count : ${detail.like_count}`}
+              </div>
               <div>{`Rating : ${detail.rating}`}</div>
               <div>{`Runtime : ${detail.runtime}`}</div>
               <h2>Description</h2>
